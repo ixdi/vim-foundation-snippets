@@ -1,0 +1,16 @@
+snippet fforminline
+		<form data-abide>
+			<div class="row">
+				<div class="small-12 medium-10 large-6 small-centered columns">
+					<div class="row">
+						<div class="small-3 columns">
+							<label for="${1}" class="right inline">{{_ '${2}'}}</label>
+						</div>
+						<div class="small-9 columns">
+							<input type="text" id="${1}" name="${3}" placeholder="{{_ 'insert'}} {{_ '${2}'}}">
+							<small class="error">{{_ '406'}}</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
