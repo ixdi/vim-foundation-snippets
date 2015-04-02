@@ -4,13 +4,43 @@ snippet fforminline
 				<div class="small-12 medium-10 large-6 small-centered columns">
 					<div class="row">
 						<div class="small-3 columns">
-							<label for="${1}" class="right inline">{{_ '${2}'}}</label>
+							<label for="${1}" class="right inline txt-bld">{{_ '${2}'}}</label>
 						</div>
 						<div class="small-9 columns">
-							<input type="text" id="${3}" name="${4}" placeholder="{{_ 'insert'}} {{_ '${5}'}}">
+							<input type="text" id="${3}" name="${4}" placeholder="{{_ 'insert'}} {{_ '${5}'}}" ${6} />
 							<small class="error">{{_ '406'}}</small>
 						</div>
 					</div>
 				</div>
 			</div>
 		</form>
+snippet finput
+	<div class="row">
+		<div class="small-3 columns">
+			<label for="${1}" class="right inline txt-bld">{{_ '${2}'}}</label>
+		</div>
+		<div class="small-9 columns">
+			<input type="text" id="${3}" name="${4}" placeholder="{{_ 'insert'}} {{_ '${5}'}}" ${6} />
+			<small class="error">{{_ '406'}}</small>
+		</div>
+	</div>
+snippet fselect
+	<div class="row">
+		<div class="small-3 columns">
+			<label for="${1}" class="right inline txt-bld">{{_ '${2}'}}</label>
+		</div>
+		<div class="small-9 columns">
+			<select id="${3}" name="${4}">
+				${5}
+			</select>
+		</div>
+	</div>
+snippet finputempty
+	<div class="row">
+		<div class="small-3 columns">
+			<label for="${1}" class="right inline txt-bld">{{_ '${2}'}}</label>
+		</div>
+		<div class="small-9 columns">
+			${3}
+		</div>
+	</div>
