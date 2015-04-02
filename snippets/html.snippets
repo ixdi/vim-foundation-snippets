@@ -11,6 +11,11 @@ snippet fforminline
 							<small class="error">{{_ '406'}}</small>
 						</div>
 					</div>
+					<div class="row text-right">
+						<div class="small-12 columns">
+							<button type="submit" class="button success"><i class="md-done"></i>{{_ 'save}}</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</form>
@@ -44,3 +49,5 @@ snippet finputempty
 			${3}
 		</div>
 	</div>
+snippet fbread
+	<li class="${1"><a href="${2}">{{_ '${3}'}}</a></li>
