@@ -55,3 +55,100 @@ snippet freq
 	<small class="txt-sup clr-alert">*</small>
 snippet fbut
 	<a href="${1}" class="button ${2}">${3}</a>
+snippet fsucbut
+	<button type="button" class="success button">${1}</button>
+snippet falertbut
+	<button type="button" class="alert button">${1}</button>
+snippet ftinybut
+	<a class="tiny button" href="#">${1}</a>
+snippet fsmallbut
+	<a class="small button" href="#">${1}</a>
+snippet flargbut
+	<a class="large button" href="#">${1}</a>
+snippet fexpbut
+	<a class="expanded button" href="#">${1}</a>
+snippet fbutgroup
+	<div class="button-group">
+		<a class="button">${1}</a>
+		<a class="button">${2}</a>
+		<a class="button">${2}</a>
+	</div>
+snippet forbit
+	<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+		<ul class="orbit-container">
+
+			<button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+			<button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+
+			<li class="is-active orbit-slide">
+
+			<div>
+					<h3 class="text-center">You can also throw some text in here!</h3>
+
+					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+
+					<h3 class="text-center">This Orbit slide has chill</h3>
+			</div>
+	</li>
+
+	<li class="orbit-slide">
+		<div>
+			<h3 class="text-center">You can also throw some text in here!</h3>
+
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+
+			<h3 class="text-center">This Orbit slide has chill</h3>
+		</div>
+	</li>
+	<li class="orbit-slide">
+		<div>
+			<h3 class="text-center">You can also throw some text in here!</h3>
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+			<h3 class="text-center">This Orbit slide has chill</h3>
+		</div>
+	</li>
+	<li class="orbit-slide">
+			<div>
+				<h3 class="text-center">You can also throw some text in here!</h3>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+				<h3 class="text-center">This Orbit slide has chill</h3>
+			</div>
+		</li>
+	</ul>
+
+	<nav class="orbit-bullets">
+
+		 <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+		 <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+		 <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+		 <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+	</nav>
+
+	</div>
+snippet faccor
+	<ul class="accordion" data-accordion role="tablist">
+		<li class="accordion-item is-active">
+			<!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+			<a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+			<!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+			<div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+				Panel 1. Lorem ipsum dolor
+			</div>
+		</li>
+		<li class="accordion-item">
+			<!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+			<a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+			<!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+			<div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+				Panel 2. Lorem ipsum dolor
+			</div>
+		</li>
+		<li class="accordion-item">
+			<!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+			<a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion 1</a>
+			<!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+			<div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+				Panel 3. Lorem ipsum dolor
+			</div>
+		</li>
+	</ul>
